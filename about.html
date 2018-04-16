@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> Whale Star - Product </title>
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Main Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!--Wrapper-->
+<div class="grid_1200">
+
+<!--Header-->
+<header class="header">  
+    <div class="container">
+        <div class="logo">
+            <a href="#1">
+                <img src="images/logo.png" alt="Whale Star" title="Whale Star">
+            </a>
+        </div>
+        <div class="header_right">
+            <nav class="mainmenu">
+                <ul class="slimmenu">                   
+                    <li><a href="feed.html">FEED</a></li>
+                    <li class="current"><a href="about.html">ABOUT</a></li>
+                    <li><a href="tickers.html">TICKERS</a></li>
+                    <li><a href="shop.html">SHOP</a></li>
+                </ul>
+            </nav>
+            <div class="cart">
+                <a href="#1"><img src="images/cart.png" alt="cart"></a>
+                <span>1</span>
+            </div>
+        </div>
+    </div>
+</header>
+<!--/Header-->
+
+<div class="sections internal">
+	<div class="container">
+    	<div class="content_holder">
+        	<h2>About WhaleStar</h2>
+        	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet sagittis ultrices. Nam vulputate nibh sed sem commodo placerat. Nulla ut nisi ut diam semper scelerisque a ut ex. Vestibulum id nisi in urna mollis maximus. Donec nec arcu urna. Phasellus sagittis, mauris ac tincidunt acinia, dolor urna maximus mauris, congue commodo orci ex ac justo. Maecenas quis urna et odio interdum rutrum non non magna. Cras malesuada velit velit, condimentum fermentum odio interdum quis. Vivamus ultricies, dolor at consequat blandit, ipsum mauris mollis ex, at hendrerit libero urna et arcu.</p>
+        	<p>Vivamus ullamcorper turpis et urna rhoncus, vitae dictum neque feugiat. Etiam magna erat, congue ac tristique a, sodales pulvinar nulla. Nam vel hendrerit tellus, nec volutpat urna. Pellentesque lacinia, quam id llamcorper feugiat, augue purus porta ligula, nec vestibulum nulla urna at erat. Aliquam bibendum vestibulum est, sed finibus enim sagittis a. Morbi sed finibus est. Proin efficitur consequat odio, sed ornare est. Donec pretium eu magna et convallis. Morbi nec vulputate magna. Praesent dapibus, ante sed convallis imperdiet, mauris neque gravida mi, fermentum congue orci risus eu orci. Integer fringilla arcu a dui vulputate semper.</p>
+        	<p>Cras et turpis sagittis, elementum libero quis, auctor ante. Nunc malesuada, ligula quis scelerisque rhoncus, metus erat semper mi, id elementum nunc urna quis erat. Sed varius lacinia risus quis ultrices. Nullam sit amet lobortis nulla, vulputate dictum neque. Aliquam tristique elit eu malesuada sodales. Ut turpis justo, pretium id pellentesque vel, semper vel leo. Mauris eleifend, libero nec imperdiet ultricies, odio lorem vehicula est, vel varius dui lorem vitae sapien. Nullam venenatis nibh fringilla ullamcorper consequat. Nullam facilisis iaculis rutrum.</p>
+        	<p><br>
+        	<br>
+        	<br>
+        	<br>
+        	<br></p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">Copyright © WhaleStar 2018</div>
+</footer>
+
+
+    
+     
+    
+    
+    
+</div>
+<!--/Wrapper-->
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.slimmenu.min.js"></script>
+    <script>
+        $('.slimmenu').slimmenu({
+            resizeWidth: '767',
+            collapserTitle: '',
+            animSpeed:'medium',
+            indentChildren: true,
+            childrenIndenter: '<i class="fa fa-angle-right"></i>'
+        });
+        // Close Effect Menu
+        $(function() {
+            $('.collapse-button').click(function() {
+                $('.collapse-button').toggleClass('close-menu');
+            });
+        });     
+    </script>
+    <script src="js/custom.js"></script>
+    
+</body>
+</html>
